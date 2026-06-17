@@ -4,7 +4,7 @@ import { supabase } from "./lib/supabase";
 
 const T = {
   en: {
-    appName: "Kharcha", tagline: "NEPAL'S SIMPLEST MONEY TRACKER",
+    appName: "Kharcha", tagline: "Your money, simplified",
     thisMonth: "This Month", spent: "Spent", earned: "Earned", saved: "Saved",
     recentTx: "Recent Transactions", aiInsight: "AI Insight",
     getInsight: "Analyze my spending", analyzing: "Analyzing...",
@@ -19,7 +19,7 @@ const T = {
     deleteConfirm: "Delete this transaction?",
     cat: { food:"Food", transport:"Transport", health:"Health", shopping:"Shopping",
            education:"Education", utilities:"Utilities", entertainment:"Entertainment",
-           other:"Other", salary:"Salary", business:"Business", freelance:"Freelance", gift:"Gift", petrol:"Petrol" },
+           other:"Other", salary:"Salary", business:"Business", freelance:"Freelance", gift:"Gift" },
     method: { cash:"Cash", esewa:"eSewa", fonepay:"Fonepay", card:"Card" },
   },
   np: {
@@ -38,7 +38,7 @@ const T = {
     deleteConfirm: "यो लेनदेन मेटाउने?",
     cat: { food:"खाना", transport:"यातायात", health:"स्वास्थ्य", shopping:"किनमेल",
            education:"शिक्षा", utilities:"बिल", entertainment:"मनोरञ्जन",
-           other:"अन्य", salary:"तलब", business:"व्यापार", freelance:"फ्रिल्यान्स", gift:"उपहार", petrol:"पेट्रोल" },
+           other:"अन्य", salary:"तलब", business:"व्यापार", freelance:"फ्रिल्यान्स", gift:"उपहार" },
     method: { cash:"नगद", esewa:"eSewa", fonepay:"Fonepay", card:"कार्ड" },
   },
 };
@@ -48,7 +48,6 @@ const EXPENSE_CATS = [
   { id:"health", icon:"🏥", color:"#F44336" }, { id:"shopping", icon:"🛒", color:"#9C27B0" },
   { id:"education", icon:"📚", color:"#4CAF50" }, { id:"utilities", icon:"💡", color:"#FFC107" },
   { id:"entertainment", icon:"🎉", color:"#E91E63" }, { id:"other", icon:"💰", color:"#78909C" },
-  { id:"petrol", icon:"⛽️", color:"#1A6B2F"}
 ];
 const INCOME_CATS = [
   { id:"salary", icon:"💼", color:"#4CAF50" }, { id:"business", icon:"🏪", color:"#2196F3" },
